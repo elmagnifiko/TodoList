@@ -1,0 +1,67 @@
+.container-fluid {
+    position: fixed;
+    width: 98% !important;
+    margin: auto !important;
+}
+.element{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 1700px;
+    display: none;
+    text-align: center;
+}
+.affiche {
+    height: 200px;
+    width: 500px !important;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    margin-left: 500px;
+    top: 300px;
+    display: none;
+}
+.table {
+    /* position: relative;
+     z-index: 1;
+     max-height: 500px !important;
+   overflow-y: auto !important; */
+   display: block;
+   height: 35rem;
+   overflow: scroll;
+}
+/* #tboby-container {
+    
+} */
+thead , tr , tbody ,td , th {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+thead , tbody {
+    flex-direction: column;
+}
+.affiche p {
+    margin: 0;
+    color: green;
+}
+.affiche p strong {
+    color: black;
+    opacity: 50%;
+}
+.formulaire {
+    height: 900px;
+}
+.card {
+    width: 99% !important; 
+    margin: auto; 
+    margin-top: 10px; 
+    height: 200px !important; 
+}
+
+.Description {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    /* margin-top: 400px !important; */
+}
