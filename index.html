@@ -13,44 +13,51 @@
   <title>Document</title>
 </head>
 
-<body>
-  <div class="element bg-white">
+<body class="bg-success">
+  <div class="element bg-white mt-5">
     <h1 class="bg-success fs-3 text-center">Ajout de la tache</h1>
     <p class="enregistrement"></p>
   </div>
-  <div class="container-fluid border bordered">
+  <div class="container border bordered mt-5 bg-white">
     <div class="row">
-      <div class="col-3 border bordered formulaire">
+      <div class="col-12 col-md-3 border bordered formulaire">
         <div class="card-head w-100">
           <h2 class="bg-success text-light p-2 text-center">Ajouter une tache</h2>
           <form>
             <div class="m-3">
               <select class="form-select" id="inputGroupSelect01">
-                <option value="0">Categorie</option>
-                <option value="1">Académique</option>
-                <option value="2">Extra-academique</option>
-                <option value="3">Distraction</option>
+                <option value="Categorie">Categorie</option>
+                <option value="Académique">Académique</option>
+                <option value="Extra-academique">Extra-academique</option>
+                <option value="Distraction">Distraction</option>
               </select>
+              <span class="Categorie">Categorie</span>
             </div>
             <div class="m-3">
-              <input type="text" class="form-control" id="inputGroupSelect02" placeholder="Titre">
+              <input type="text" class="form-control" required="required" id="inputGroupSelect02">
+              <span class="Titre">Titre</span>
             </div>
             <div class="m-3">
-              <input type="date" class="form-control" id="inputGroupSelect03" placeholder="jj/mm/aaaa">
+              <input type="date" class="form-control" id="inputGroupSelect03">
+              <span class="Date">Date</span>
             </div>
             <div class="m-3">
               <textarea class="form-control" id="inputGroupSelect04" placeholder="Description"></textarea>
+              <span class="descrip">Description</span>
             </div>
             <div class="m-3 ">
               <select class="form-select" id="inputGroupSelect05">
-                <option value="0">statut</option>
-                <option value="1">Nouveau</option>
-                <option value="2">En cours</option>
-                <option value="3">Terminé</option>
+                <option value="statut">statut</option>
+                <option value="Nouveau">Nouveau</option>
+                <option value="En cours">En cours</option>
+                <option value="Terminé">Terminé</option>
               </select>
+              <span class="statut">statut</span>
             </div>
             <div class="m-3 ">
               <button type="submit" id="Ajouter" class="btn btn-success form-control">Ajouter</button>
+              <button type="submit"  class="btn btn-success form-control button2">Ajoute11r</button>
+
             </div>
           </form>
           <div class="border bordered"></div>
